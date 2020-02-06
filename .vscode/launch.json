@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+{
+  "name": "Attach [Remote Debug]",
+  "type": "python",
+  "request":"attach",
+  "pathMappings": [
+    {
+    "localRoot": "${workspaceFolder}",
+    "remoteRoot": "/code/"
+    }
+  ],
+
+  "port":3500,
+  "host":"localhost",
+  "django": true,
+
+
+
+}
+    ]
+
+  }

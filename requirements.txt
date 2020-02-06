@@ -1,0 +1,4 @@
+Django>=>3.0
+pyodbc>=4.0
+requests>=2.0
+ptvsd==4.3.2
